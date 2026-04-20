@@ -1,4 +1,4 @@
-<?php 
+<?php
   $pagename = 'လၟေင်တက်အက္ခရ် Mon K NEmin Keyboard Help';
   $pagetitle = $pagename;
   require_once('header.php');
@@ -12,7 +12,7 @@
 		<p>
 			ပ္ဍဲအရာမတက်အက္ခရ် Mon Unicode Keyboard ဏံဝွံတၟေင်တၞဟ်ခြာဟွံမွဲရ၊ လၟေင်တက်အက္ခရ်မပ္တံကဵု ၜ၊ၚ၊ဂ၊ယ၊ဣ ကွက်နတအ်ဂှ်
             တၟေင်နွံတဴညိညရ မပ္တံကဵု Key ဗၟာတအ်လေဝ် တၞဟ်နဂွံသုင်စောဲ ဗွဲမဂတာပ်အခိင်ကီု တၞဟ်နဟွံဒးပြံင် Keyboardဗၟာကီုတုဲ၊ မ္ဒးထပ်စုတ်လဝ် သီုKeyဗၟာရ။
-            ဥပမာ = တက်အက္ခရ် ၜ မ္ဂး \ , ၚ shift+I, ဂ shift+:, ယ shift+B, ဣ shift+M 
+            ဥပမာ = တက်အက္ခရ် ၜ မ္ဂး \ , ၚ shift+I, ဂ shift+:, ယ shift+B, ဣ shift+M
 		</p>
 
 		<h3 id="1">
@@ -20,30 +20,30 @@
 		</h3>
 		<h4>ဟွံဂွံဍဵု Shift ဏီ</h4>
 		<p><img src="mon_k_nemin.png" alt="Keyboard Layout"></p>
-		
+
 		<h4>ဍဵုလဝ် Shift တုဲ</h4>
 		<p><img src="mon_k_nemin_after_shift.png" alt="Keyboard Layout with Shift"></p>
-		
+
 		<h4>ဍဵုလဝ် ctrl+alt တုဲ</h4>
 		<p><img src="mon_k_nemin_ctrl_alt.png" alt="Keyboard Layout with Ctrl+Alt"></p>
-		
+
 		<h4>Mobile Default Layer </h4>
 		<p><img src="mon_k_nemin_mobile_default.jpg" alt="Mobile Default Layer"></p>
-		
+
 		<h4>Mobile Shift Layer </h4>
 		<p><img src="mon_k_nemin_mobile_shift.jpg" alt="Mobile Shift Layer"></p>
-		
+
 		<h4>Mobile Numeric Layer </h4>
-		<p><img src="mon_k_nemin_mobile_mumeric.jpg" alt="Mobile Numeric Layer"></p>
-		
+		<p><img src="mon_k_nemin_mobile_numeric.jpg" alt="Mobile Numeric Layer"></p>
+
 		<h4>Mobile symbol Layer </h4>
 		<p><img src="mon_k_nemin_mobile_symble.jpg" alt="Mobile Symbol Layer"></p>
-		
+
 		<h3 id="2">
 			၂။ ဗီုဂွံတက်ဗျန်ကွက်ဂမၠိုၚ်
 		</h3>
 		<p>
-			ဍဵု Shift + F တုဲ တက်ဗျန်မဆေင်စပ်ကဵုအက္ခရ်ကွက်တအ်ဂှ်မ္ဂး 
+			ဍဵု Shift + F တုဲ တက်ဗျန်မဆေင်စပ်ကဵုအက္ခရ်ကွက်တအ်ဂှ်မ္ဂး
 		</p>
 		<table border="1" cellspacing="0" cellpadding="7">
 			<tr>
@@ -109,10 +109,10 @@
 				<th>ဴ</th>
 				<th>ံ</th>
 				<th>း</th>
-			</tr>	
+			</tr>
 		</table>
 		<br />
-				
+
 		<table border="1" cellspacing="0" cellpadding="7">
 			<tr>
 				<th>က</th>
@@ -193,7 +193,7 @@
 				<td>ဟ</td>
 				<td>ဠ</td>
 				<td></td>
-			</tr>							
+			</tr>
 		</table>
 		<br />
 	</div>
