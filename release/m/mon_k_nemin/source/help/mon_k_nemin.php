@@ -37,7 +37,7 @@
 		<p><img src="mon_k_nemin_mobile_numeric.jpg" alt="Mobile Numeric Layer"></p>
 
 		<h4>Mobile symbol Layer </h4>
-		<p><img src="mon_k_nemin_mobile_symble.jpg" alt="Mobile Symbol Layer"></p>
+		<p><img src="mon_k_nemin_mobile_symbols.jpg" alt="Mobile Symbol Layer"></p>
 
 		<h3 id="2">
 			၂။ ဗီုဂွံတက်ဗျန်ကွက်ဂမၠိုၚ်
