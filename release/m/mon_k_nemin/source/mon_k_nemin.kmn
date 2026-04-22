@@ -1,4 +1,4 @@
-﻿c This Mon Unicode keyboard helps you type accurately with proper character order,
+c This Mon Unicode keyboard helps you type accurately with proper character order,
 c clear vowel placement, and correct shaping.
 
 store(&VERSION)         '17.0'
@@ -179,6 +179,15 @@ c  Base / number catch-alls
 + any(asatK)   > outs(asatU)
 
 c  Diacritic ordering  (Nemin)
+c  Visual fix: ံ(U+1036) stored BEFORE ာ/ါ so dot sits in middle, not on top
+c  Case 1: ါ typed then ံ  ->  swap to ံ U+102C
+U+102C + 'H' > U+1036 U+102C
+c  Case 2: ာ typed then ံ  ->  swap to ံ U+102B
+U+102B + 'H' > U+1036 U+102B
+c  Case 3: ံ typed then ာ  ->  keep ံ first, append ာ after (overrides any(udia2U)+any(aaK))
+U+1036 + 'g' > U+1036 U+102B
+c  Case 4: ံ typed then ါ  ->  keep ံ first, append ါ after (overrides any(udia2U)+any(aaK))
+U+1036 + 'm' > U+1036 U+102C
 any(udia2U) + any(aaK)    > index(aaU, 2) context
 any(ldiaU)  + any(udia1K) > index(udia1U, 2) context
 any(udia2U) + any(ldiaK)  > index(ldiaU, 2) context
